@@ -124,3 +124,40 @@ print(l1+l2)
 
 str="I ate {0} pizza and write {1} quotes".format(1, "many")
 print(str)
+
+str="i got a boy"
+
+str2 =" ".join(str).split(" ")
+
+print(str2)
+
+str3=[]
+
+for i in range(len(str2)):
+    if str2[i] != '':
+        str3.append(str2[i])
+str4 = []
+str4 = [i for i in str2 if i != '']
+
+print(str3)
+
+
+print("a" in str)
+print(str.find("a"))
+
+
+li=["a", "b", "c"]
+
+for i in li:
+    print(i)
+
+for i in range(10):
+    print(i, end=" ")
+
+for i in range(0,10):
+    print(i)
+
+add = lambda a, b : a + b
+
+print(add(3,4))
+
