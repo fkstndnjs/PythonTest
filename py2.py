@@ -62,4 +62,6 @@ print([1,2][:4])
 
 print("onetwo".replace("one", '1'))
 
-print("")
+str="adbc"
+print(str.sort())
+print(str)
