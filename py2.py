@@ -63,5 +63,7 @@ print([1,2][:4])
 print("onetwo".replace("one", '1'))
 
 str="adbc"
-print(str.sort())
-print(str)
+
+li=[[1,2],[3,4]]
+
+print(sum(li[0]))
